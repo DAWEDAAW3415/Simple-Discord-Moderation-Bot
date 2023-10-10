@@ -8,7 +8,7 @@ import discord
 
 # Creating client instance - this will be used to interact with the Discord API (connection to Discord)
 client = discord.Client()
-key = "MTE2MTM1MzgzNjA5OTgwMTE2Mg.GAbruc.OZ23UBDISEltjzKtfarxKsWkf56nSSSnq7DqP0"
+key = "NzAwNjA1ODAzNzIzMjI3MTg3.G8FMGC.sApQR5ri73Iiv38BFO0txZ-eRN3u3Z7n9KrFxw"
 
 # These are all the words you want to block (the last 2 items are so the bot also deletes messages
 # containing links) - You can add as many terms in here as you'd like.
@@ -38,4 +38,4 @@ async def on_message(msg):
         print("Not Deleting...") # This will be printed if the bot doesn't delete a message
         
 
-client.run(MTE2MTM1MzgzNjA5OTgwMTE2Mg.GAbruc.OZ23UBDISEltjzKtfarxKsWkf56nSSSnq7DqP0) # Running the bot"
+client.run(NzAwNjA1ODAzNzIzMjI3MTg3.G8FMGC.sApQR5ri73Iiv38BFO0txZ-eRN3u3Z7n9KrFxw) # Running the bot"
