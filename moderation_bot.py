@@ -12,7 +12,7 @@ key = "MTE2MTM1MzgzNjA5OTgwMTE2Mg.GAbruc.OZ23UBDISEltjzKtfarxKsWkf56nSSSnq7DqP0"
 
 # These are all the words you want to block (the last 2 items are so the bot also deletes messages
 # containing links) - You can add as many terms in here as you'd like.
-block_words = ["Fuck", "Bitch","Hoe", "go KYS", "http://",]
+block_words = ["Fuck", "Bitch","http://",]
 
 # The on_ready event happens when the bot comes online
 @client.event
